@@ -28,6 +28,14 @@
       "type": "npm",
       "script": "compile",
       "group": "build"
+    },
+    {
+      "type": "npm",
+      "script": "watch:extension",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: watch:extension",
+      "detail": "tsc -watch -p ./"
     }
   ]
 }

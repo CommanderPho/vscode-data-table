@@ -1,8 +1,8 @@
 {
   "name": "vscode-data-table",
   "displayName": "Data Table Renderers",
-  "description": "Data Table 🈸, Flat Data Grid 中 & Data Summary 🈷️ Renderers for VSCode Notebook 📓 Cell ⌗ Data Outputs",
-  "version": "1.12.0",
+  "description": "Data Table 👨‍💻👤🈸, Flat Data Grid 中 & Data Summary 🈷️ Renderers for VSCode Notebook 📓 Cell ⌗ Data Outputs",
+  "version": "1.12.1-Pho",
   "engines": {
     "node": ">16.5.0",
     "vscode": "^1.68.0"
@@ -11,6 +11,7 @@
   "publisher": "RandomFractalsInc",
   "author": "Taras Novak",
   "contributors": [
+    "Pho Hale @commanderpho",
     "Taras Novak @RandomFractals",
     "Alexander @usernamehw"
   ],
@@ -18,10 +19,10 @@
   "readme": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RandomFractals/vscode-data-table"
+    "url": "https://github.com/CommanderPho/vscode-data-table.git"
   },
-  "bugs": "https://github.com/RandomFractals/vscode-data-table/issues",
-  "homepage": "https://github.com/RandomFractals/vscode-data-table/README.md",
+  "bugs": "https://github.com/CommanderPho/vscode-data-table.git/issues",
+  "homepage": "https://github.com/CommanderPho/vscode-data-table.git/README.md",
   "sponsor": {
     "url": "https://github.com/sponsors/RandomFractals"
   },
@@ -136,7 +137,7 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run build && node out/test/checkNoTestProvider.js",
+    "vscode:prepublish": "npm run build",
     "compile": "npm run compile:extension && npm run compile:renderer",
     "compile:extension": "tsc -p src/extension",
     "compile:renderer": "webpack --config=./webpack.config.js",
