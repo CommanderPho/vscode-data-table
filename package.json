@@ -2,7 +2,7 @@
   "name": "vscode-data-table",
   "displayName": "Data Table Renderers",
   "description": "Data Table 👨‍💻👤🈸, Flat Data Grid 中 & Data Summary 🈷️ Renderers for VSCode Notebook 📓 Cell ⌗ Data Outputs",
-  "version": "1.14.0-Pho",
+  "version": "1.14.1-Pho",
   "engines": {
     "node": ">16.5.0",
     "vscode": "^1.68.0"
